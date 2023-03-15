@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: rgb(8, 150, 8);
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-decoration: none;
+}
