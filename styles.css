@@ -10,12 +10,14 @@ body {
 }
 
 .header {
-    background-color: rgb(8, 150, 8);
+    background-color: rgb(0, 65, 0);
     display: flex;
     flex-grow: 1;
     padding: 20px;
-    height: 400px;
+    height: 500px;
     padding-right: 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
@@ -23,7 +25,7 @@ body {
     height: 120px;
     width: auto;
     border-radius: 20%;
-    margin-left: 60px;
+    margin-left: 125px;
 }
 
 ul {
@@ -32,6 +34,7 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+    font-size: 16px;
 }
 
 a {
@@ -46,6 +49,7 @@ a {
 .head-links {
     display: flex;
     margin-top: 5px;
+    
 }
 
 
@@ -57,13 +61,24 @@ a {
 }
 
 .login {
-width: 80px;
-border-radius: 20%;
-background-color: rgba(107, 66, 4, 0.959);
+width: 150px;
+border-radius: 10%;
+background-color: rgba(95, 73, 39, 0.959);
 color: orange;
+padding: 10px;
+font-weight: 900;
 }
 
-.img-1 {
+.head-img {
+    width: auto;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.title {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 125px;
 }
-
