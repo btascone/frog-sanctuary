@@ -35,6 +35,7 @@ ul {
     padding: 0;
     gap: 16px;
     font-size: 16px;
+    
 }
 
 a {
@@ -62,11 +63,13 @@ a {
 
 .login {
 width: 150px;
-border-radius: 10%;
-background-color: rgba(95, 73, 39, 0.959);
-color: orange;
+border-radius: 5%;
+background-color: rgb(73, 219, 68);
+color: rgb(4, 41, 6);
 padding: 10px;
 font-weight: 900;
+border: 2px solid rgb(73, 219, 68);
+margin-top: 10px;
 }
 
 .head-img {
@@ -81,6 +84,7 @@ font-weight: 900;
     flex-wrap: wrap;
     width: 500px;
     margin-left: 125px;
+    margin-top: 10px;
 }
 
 .divtitle {
@@ -181,7 +185,7 @@ padding-bottom: 70px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
-    border-radius: 3%;
+    border-radius: 2%;
     justify-content: space-between;
 }
 
@@ -193,10 +197,11 @@ padding-bottom: 70px;
 .signup {
     width: 150px;
     border-radius: 10%;
-    background-color: rgba(95, 73, 39, 0.959);
-    color: orange;
+    background-color: rgb(0, 65, 0);
+    color: rgb(73, 219, 68);
     padding: 10px;
     font-weight: 900;
+    border: 2px solid rgb(73, 219, 68);
 }
 
 .last-title {
