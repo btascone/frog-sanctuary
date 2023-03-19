@@ -9,33 +9,36 @@ body {
     flex-grow: 0;
 }
 
-.header {
-    background-color: rgb(0, 65, 0);
+.top {
     display: flex;
-    flex-grow: 1;
-    padding: 20px;
-    height: 500px;
-    padding-right: 70px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+    flex-direction: column;
+    height: 600px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(0, 65, 0);
 }
 
-.icon {
-    height: 120px;
+.logo {
+    height: 150px;
     width: auto;
     border-radius: 20%;
-    margin-left: 125px;
+    margin-right: 300px;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-around;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 16px;
-    font-size: 16px;
-    
+    display: flex;
+    gap: 32px;
+}
+
+li {
+    list-style: none;
 }
 
 a {
@@ -43,22 +46,29 @@ a {
     color: rgb(73, 219, 68);
 }
 
-.logo {
+.paragraph {
     display: flex;
+    flex-direction: column;
+    width: 450px;
+    flex-shrink: 0;
 }
 
-.head-links {
-    display: flex;
-    margin-top: 5px;
-    
+.word {
+    font-size: 34px;
+    font-weight: 900;
 }
 
+.top2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
 
-.head-img {
-    width: 420px;
-    height: auto;
-    display: inline;
+}
 
+.headpic {
+    width: 375px;
+    height: 225px;
 }
 
 .login {
@@ -72,20 +82,6 @@ border: 2px solid rgb(73, 219, 68);
 margin-top: 10px;
 }
 
-.head-img {
-    width: auto;
-    height: 250px;
-    margin-top: 25px;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 500px;
-    margin-left: 125px;
-    margin-top: 10px;
-}
 
 .divtitle {
     display: flex;
